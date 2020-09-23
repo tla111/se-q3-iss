@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__author__ = '???'
+__author__ = 'Timothy La (tla111)'
 
 
 def main():
