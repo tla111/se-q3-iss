@@ -7,9 +7,12 @@ import requests
 
 def main():
 
-    # r = requests.get("http://api.open-notify.org/astros.json")
-    # print(r.json())
-    return
+    r = requests.get("http://api.open-notify.org/astros.json")
+    print(r.json())
+
+    coords = requests.get(
+        'http://api.open-notify.org/iss-now.json').json()
+    return coords
 
 
 if __name__ == '__main__':
